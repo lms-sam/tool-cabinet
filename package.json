@@ -2,7 +2,7 @@
   "name": "tool-cabinet",
   "version": "0.0.1",
   "description": "tools for help us to do that generator can't do",
-  "main": "index.js",
+  "main": "./src/index.js",
   "repository": "git@github.com:liminshen/tool-cabinet.git",
   "author": "liminshen <liminshen159999@163.com>",
   "license": "MIT",
