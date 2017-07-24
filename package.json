@@ -1,0 +1,28 @@
+{
+  "name": "tool-cabinet",
+  "version": "0.0.1",
+  "description": "tools for help us to do that generator can't do",
+  "main": "index.js",
+  "repository": "git@github.com:liminshen/tool-cabinet.git",
+  "author": "liminshen <liminshen159999@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register --colors ./configs/test/**/*.test.js",
+    "start": "browser-sync start --server --files examples/**/*.*",
+    "dev": "NODE_ENV=dev webpack --colors --config ./configs/webpack.config.js",
+    "product": "NODE_ENV=product webpack --colors --config ./configs/webpack.config.js",
+    "release": "npm run dev && npm run product"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.25.0",
+    "babel-eslint": "^7.2.3",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "chai": "^4.1.0",
+    "eslint": "^4.3.0",
+    "eslint-loader": "^1.9.0",
+    "mocha": "^3.4.2",
+    "webpack": "^3.3.0"
+  }
+}
