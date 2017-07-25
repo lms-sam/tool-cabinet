@@ -5,6 +5,7 @@ import url from './util/url.js'
 import AjaxForm from './upload/AjaxForm.js'
 import UploadFile from './upload/UploadFile.js'
 import rem from './util/rem.js'
+import equiValid from './validator/equipment.js'
 
 export default {
 	version,
@@ -12,5 +13,6 @@ export default {
 	cookie,
 	AjaxForm,
 	UploadFile,
-	rem
+	rem,
+	equiValid
 }

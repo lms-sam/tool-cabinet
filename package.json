@@ -1,6 +1,6 @@
 {
   "name": "tool-cabinet",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "tools for help us to do that generator can't do",
   "main": "./src/index.js",
   "repository": "git@github.com:liminshen/tool-cabinet.git",
